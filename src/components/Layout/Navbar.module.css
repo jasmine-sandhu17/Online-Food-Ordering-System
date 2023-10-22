@@ -1,0 +1,52 @@
+.layout-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 14px 50px;
+}
+.title {
+    color: white;
+    margin: 0;
+}
+.cart-button {
+    background-color: #571f21;
+    padding: 10px 40px;
+    border-radius: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.cart-image {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.cart-button-label {
+    font-size: 16px;
+    color: white;
+}
+
+.cart-button-badge {
+    background-color: #bb181e;
+    color: white;
+    font-size: 16px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    border-radius: 28px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.meals-banner{
+    height: 100%;
+    width: 100%;
+}
